@@ -31,3 +31,30 @@ Ex: DesktopRemoto --- Commit ---> RepositorioRemoto --- Push ---> ServerRemoto
 
     O push é o envio dos commits locais para um repositório remoto.
     Ele sincroniza suas alterações com outras pessoas da equipe, publicando suas mudanças em plataformas.
+
+# SOFTWARE DE VERSIONAMENTO
+
+### Centralizado
+
+    Nesse modelo, existe um único servidor que armazena todo o histórico do projeto.
+
+    Apache Subversion (SVN) – Um dos mais conhecidos sistemas centralizados.
+
+    CVS (Concurrent Versions System) – Um dos primeiros sistemas populares de versionamento.
+
+    Perforce Helix Core – Muito utilizado em grandes empresas e projetos de jogos.
+
+    Team Foundation Version Control (TFVC) – Sistema centralizado da Microsoft.
+
+### Distribuído
+
+    Nesse modelo, cada desenvolvedor possui uma cópia completa do repositório.
+
+    Git – O mais utilizado atualmente no mundo.
+
+    Mercurial – Simples e eficiente, similar ao Git.
+
+    azaar – Desenvolvido para ser fácil de usar e flexível.
+
+    Fossil – Sistema distribuído que já inclui wiki e controle de tickets.
+
